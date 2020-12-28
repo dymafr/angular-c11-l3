@@ -9,6 +9,7 @@ import { CocktailDetailsComponent } from "./cocktail-container/cocktail-details/
 import { CocktailContainerComponent } from "./cocktail-container/cocktail-container.component";
 import { SelectedDirective } from "./shared/directives/selected.directive";
 import { PanierContainerComponent } from './panier-container/panier-container.component';
+import { IngredientListComponent } from './panier-container/ingredient-list/ingredient-list.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -19,7 +20,8 @@ import { PanierContainerComponent } from './panier-container/panier-container.co
     CocktailDetailsComponent,
     CocktailContainerComponent,
     SelectedDirective,
-    PanierContainerComponent
+    PanierContainerComponent,
+    IngredientListComponent
   ],
   bootstrap: [AppComponent],
   providers: []
